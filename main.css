@@ -1,0 +1,30 @@
+body {
+font-family: 'Oswald', sans-serif;
+color: purple;
+padding-right: 20em;
+background-image:url(https://upload.wikimedia.org/wikipedia/commons/a/ae/Earth_2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.footer{
+margin-top: 155px;
+}
+
+h1 {
+padding-left: 450px;
+}
+
+h2 {
+  padding-left: 25px;
+}
+
+.bild {
+margin-top: 5px;
+padding-left: 450px;
+}
+
+.text {
+padding-left: 420px;
+font-style: italic;
+}
