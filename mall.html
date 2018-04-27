@@ -4,14 +4,28 @@
 <head>
 <!--Title-->
 <title>Alexander's Blogg</title>
-<link rel="stylesheet" href="main.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="main.css">
 </head>
 <!--body-->
 <body>
+  <!--Searchbar/Navbar 1-->
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#Profil">Profil</a>
+    <a href="#Mina inlägg">Mina inlägg</a>
+    <a href="#Händelser">Händelser</a>
+    <div class="search-container">
+      <form action="/action_page.php">
+        <input type="text" placeholder="Search.." name"search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </div>
 <!--Info Bar-->
-<nav>
-    <!--Namn på inloggad användare/logga in om inte inloggad-->
+<div class="navbar1">
+    <!--Namn på inloggad användare-->
   <a href="#">Logga In</a>
    <!--Skapa ett konto-->
    <a href="#">Skapa ett konto</a>
@@ -20,27 +34,9 @@
    <!--Hjälp-->
    <a href="#" class="right">Hjälp</a>
    <!--Om inloggad, logg ut knapp annars en logg in knapp-->
- </nav>
+</div>
 <!--Header-->
 <h1>Välkommen till Alexander's blogg</h1>
-<h2>Meny</h2>
-<!--Navbar-->
-<nav>
-  <ul>
-  <li><a href="#">Home</a></li>
-   <li><a href="#">Profil</a></li>
-   <li><a href="#">Mina inlägg</a></li>
-   <li><a href="#" class="right">Händelser</a></li>
-   </ul>
-</nav>
-
-
-<!--Search bar-->
-<form class="example" action="action_page.php">
-  <input type="text" placeholder="Search.." name="search">
-  <button type="submit"><i class="fa fa-search"></i></button>
-</form>
-
 <!--IMG-->
 <div class="bild">
 <img src="http://assets.change.org/photos/1/lh/jv/czLHJvpcQHFecEV-1600x900-noPad.jpg?1461650738" alt="">
