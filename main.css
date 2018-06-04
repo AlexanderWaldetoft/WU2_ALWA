@@ -81,18 +81,20 @@ body {
   }
 }
 
-.navbar1{
+.navbar1 {
 float:right;
-
+margin-top: 10px;
+color: yellow;
 }
 
 .footer{
-margin-top: 290px;
+margin-top: 250px;
 }
 
 h1 {
 padding-left: 450px;
 color: yellow;
+margin-top: 50px;
 }
 
 h2 {
