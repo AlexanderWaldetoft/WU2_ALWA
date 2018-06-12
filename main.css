@@ -7,8 +7,9 @@ body {
   font-family: 'Oswald', sans-serif;
   color: yellow;
   background-image:url(https://upload.wikimedia.org/wikipedia/commons/a/ae/Earth_2.jpg);
-  background-repeat: no-repeat;
-  background-size: auto;
+
+
+
 }
 
 
@@ -23,9 +24,9 @@ body {
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1vw 1vw;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1vw;
 }
 
 .topnav a:hover {
@@ -44,20 +45,20 @@ body {
 
 .topnav input[type=text] {
 
-    padding: 6px;
+    padding: 1vw;
     border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
+    margin-top: 0.3vw;
+    margin-right: 1vw;
+    font-size: 1vw;
 }
 
 .topnav .search-container button {
   float: right;
-  padding: 6px 10px;
-  margin-top: 8px;
-  margin-right: 16px;
+  padding: 1vw 1vw;
+  margin-top: 0.3vw;
+  margin-right: 0.5vw;
   background: #ddd;
-  font-size: 17px;
+  font-size: 1vw;
   border: none;
   cursor: pointer;
 }
@@ -67,47 +68,71 @@ body {
 }
 
 
-@media screen and (max-width: 600px) {
-  .topnav a, .topnav input[type=text], .topnav .search-container button {
-    float: none;
-    display: block;
-    text-align: left;
-    width: 100%;
-    margin: 0;
-    padding: 14px;
-  }
-  .topnav input[type=text] {
-    border: 1px solid #ccc;
-  }
-}
-
 .navbar1 {
 float:right;
-margin-top: 10px;
-color: yellow;
+margin-top: 0.2vw;
+font-size: 1vw;
 }
 
 .footer{
-margin-top: 250px;
+margin-top: 10vw;
 }
 
 h1 {
-padding-left: 450px;
+padding-left: 30vw;
 color: yellow;
-margin-top: 50px;
+margin-top: 1vw;
 }
 
 h2 {
-  padding-left: 25px;
+  padding-left: 2vw;
 }
+
 
 .bild {
-margin-top: 50px;
-padding-left: 450px;
+margin: auto;
+margin-top: 2vw;
+padding-left: 33vw;
+width: 100%;
+height: auto;
+
 }
 
-.text {
-margin-top: 50px;
-font-style: italic;
-color: yellow;
+
+.bild img {
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+.posts {
+
+    background-color: blue;
+    padding: 1vw;
+    border: 0.1vw solid yellow;
+    margin-bottom: 1vw;
+}
+
+h1 {
+
+    text-shadow: 0.1vw 0.1vw 0.1vw black;
+    color: yellow;
+    font-size: 3vw;
+
+}
+
+.h1posts {
+ color: yellow;
+ text-shadow: black;
+ font-size: 3vw;
+}
+
+
+
+#wrapper {
+
+   width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+
 }
