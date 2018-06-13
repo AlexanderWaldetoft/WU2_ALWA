@@ -69,22 +69,48 @@ body {
 
 
 .navbar1 {
-float:right;
-margin-top: 0.2vw;
-font-size: 1vw;
+float: right;
+margin-bottom: 2vw;
+
+
 }
 
 .footer{
-margin-top: 10vw;
+margin-top: 3vw;
+text-shadow: blue 0.1vw 0.1vw 0.1vw;
 }
 
-h1 {
-padding-left: 30vw;
+
+.welcomeh1 {
+  padding-left: 30vw;
+  margin-top: 1vw;
+  color: yellow;
+}
+
+.h1posts {
+  padding-left: 25vw;
+  margin-top: 1vw;
+  color: yellow;
+}
+
+.pinguh1{
 color: yellow;
 margin-top: 1vw;
 }
 
-h2 {
+.pfoodh1{
+  color: yellow;
+  margin-top: 1vw;
+}
+
+
+.pislandh1{
+color: yellow;
+margin-top: 1vw;
+}
+
+
+.h2 {
   padding-left: 2vw;
 }
 
@@ -115,7 +141,7 @@ height: auto;
 
 h1 {
 
-    text-shadow: 0.1vw 0.1vw 0.1vw black;
+    text-shadow: 0.1vw 0.1vw 0.1vw blue;
     color: yellow;
     font-size: 3vw;
 
@@ -123,7 +149,7 @@ h1 {
 
 .h1posts {
  color: yellow;
- text-shadow: black;
+ text-shadow: blue 0.1vw 0.1vw 0.1vw;
  font-size: 3vw;
 }
 
@@ -135,4 +161,63 @@ h1 {
     margin-left: auto;
     margin-right: auto;
 
+}
+
+
+.profileh1{
+ padding-left: 44vw;
+ margin-top: 2vw;
+
+}
+
+.profilep{
+text-align: center;
+margin-top: 1vw;
+padding-left: 2vw;
+}
+
+
+.navprofile {
+padding-left: 47vw;
+margin-top: 2vw;
+}
+
+
+.postsh1{
+  padding-left: 47vw;
+  margin-top: 2vw;
+}
+
+
+
+.navposts {
+  padding-left: 47vw;
+  margin-top: 2vw;
+}
+
+
+
+.notifih1 {
+margin-top: 2vw;
+padding-left: 44vw;
+}
+
+
+
+.navnotifi {
+  margin-top: 2vw;
+  padding-left: 50vw;
+}
+
+
+
+.settingsih1{
+  padding-left: 47vw;
+  margin-top: 2vw;
+}
+
+
+.navsettings{
+margin-top: 2vw;
+padding-left: 48vw;
 }

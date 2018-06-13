@@ -10,7 +10,7 @@ Kommentera (Endast om du är inloggad)
 Gilla
 Dela (Facebook,Twitter mm)
 
-[About]
+[Profile]
 Min Profil
 Redigera Profil
 Användarnamn, Bild, om mig/om företag (beskrivning)
